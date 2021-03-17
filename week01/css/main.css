@@ -1,5 +1,57 @@
-p{
-    font-size: 60px;
-    font-weight: 800;
+@font-face {
+    src: url("../fonts/NanumBarunpenR.ttf");
+    font-family: "nanum";
+}
+
+body {
+    font-family: "nanum";
+    background-color: whitesmoke;
     text-align: center;
+}
+
+.poem {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    width: 50%;
+    margin-bottom: 5rem;
+    cursor: pointer;
+}
+
+#title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;    
+    line-height: 80px;
+}
+
+#poet{
+    text-align: right;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.text{
+    text-align: left;
+    font-size: 30px;   
+}
+
+.clause {
+    margin-bottom: 30px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+img.relative{
+    position: relative;
+    left: 0px;
+    top: 20px;
+    bottom: 20px;
 }

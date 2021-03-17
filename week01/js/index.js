@@ -1,3 +1,3 @@
-const popAlert = () => {
-    alert('만나서 반가워요!')
+const PopAlert = () => {
+    alert('하루 빨리 코로나 없는 세상에서 살고 싶은 마음을 담은 대학 새내기의 시입니다.')
 }
