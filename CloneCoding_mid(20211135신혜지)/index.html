@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--웹 페이지 이름-->
+    <title>Noun Project: Free Icons & Stock Photos for Everything</title>
+    <!--파비콘-->
+    <link rel="icon" type="image/png" href="https://static.production.thenounproject.com/img/favicons/apple-touch-icon.7fb1143e988e.png" sizes="16x16">
+    <!--스타일 리셋-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!--CSS, JS파일과 연결-->
+    <link rel="stylesheet" href="./css/main.css">
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+    <!--헤더-->
+    <header id="site-header">
+        <div class="header-wrapper">
+            <div class="header-bar">
+                <!--상단 메뉴-->
+                <div class="menu-bar">
+                    <div class="main_menu">
+                        <div class="shown_menu">
+                            <a href="https://thenounproject.com/">Icons</a>
+                            <a href="https://thenounproject.com/photos/">Photos</a>
+                            <a href="https://thenounproject.com/pricing/">Pricing</a>
+                            <a href="https://thenounproject.com/apps/">Apps & Plugins</a>
+                            <a href="https://thenounproject.com/developers/">API</a>
+                            <a href="https://thenounproject.com/lingo/">Lingo</a>
+                        </div>
+                        <nav class="menu_nav">
+                            <svg viewbox="0 0 20 20">
+                                <path d="M5.854 10a2.928 2.928 0 11-5.855-.001A2.928 2.928 0 015.854 10zm6.953 0a2.928 2.928 0 11-5.855-.001 2.928 2.928 0 015.855.001zM20 10a2.928 2.928 0 11-5.855-.001A2.928 2.928 0 0120 10z"></path>
+                            </svg>
+                            <div class="hidden_menu"></div>
+                        </nav>
+                    </div>
+                </div>
+                <!--로그인, 계정 생성 버튼-->
+                <div class="account">
+                    <a href="https://thenounproject.com/accounts/login/?next=%2F" class="login">Login</a>
+                    <button class="join"><a href="https://thenounproject.com/accounts/signup/?next=%2F">Join</a></button>
+                </div>
+            </div>
+            <!--메인 로고 홈 버튼-->
+            <div class="logo-bar">
+                <div class="home_btn">
+                    <a href="/">
+                        <svg width="84" height="23" viewbox="0 0 84 23" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M50.8421 4.55325L46.8133 0.483887L39.7895 7.56844L32.6983 0.483887L28.7368 4.55325L35.755 11.5698L28.7368 18.592L32.6983 22.6557L39.7895 15.5711L46.8133 22.6557L50.8421 18.592L43.8239 11.5698L50.8421 4.55325ZM20.0445 17.9056C23.5054 12.8967 22.2627 6.02212 17.2688 2.55081C12.275 -0.920494 5.42106 0.325967 1.96017 5.33486C-1.50072 10.3438 -0.257997 17.2183 4.73587 20.6896C9.72973 24.1609 16.5837 22.9145 20.0445 17.9056ZM84 0.483887H61.8947V22.6557H84V0.483887Z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="title_search_conatain">
+            <!--메인 슬라이드 제목-->
+            <div class="main_title">
+                <h1>Icons and Photos For Everything</h1>
+            </div>
+            <!--검색 창-->
+            <div class="search-wrapper">
+                <div class="search_box">
+                    <!--icon, photo 선택 버튼-->
+                    <nav class="search_nav">
+                        <button class="search_type">
+                            <svg viewbox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" class="icons">
+                                <path d="M0.000244141 0H9.51338V9.51313H0.000244141V0ZM9.13003 14C11.8626 14 14.0778 11.7848 14.0778 9.05228C14.0778 6.31973 11.8626 4.10455 9.13003 4.10455C6.39748 4.10455 4.18231 6.31973 4.18231 9.05228C4.18231 11.7848 6.39748 14 9.13003 14Z"></path>
+                            </svg>
+                            <span class="icons_btn">Icons</span>
+                            <svg viewbox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" class="arrow_down">
+                                <path d="M0 2.59692L1.264 1.33332L4.0008 4.07092L6.7372 1.33452L8 2.59732L4 6.59732L0 2.59692Z"></path>
+                            </svg>
+                        </button>
+                    </nav>
+                    <form action="/search/" class="search">
+                        <!--입력 창-->
+                        <input type="search" placeholder="Search over 3 million icons">
+                        <!--검색 버튼-->
+                        <button type="button">
+                            <svg viewbox="0 0 20 20">
+                                <path d="M19.997 17.338l-5.363-5.364a7.846 7.846 0 001.144-4.08A7.889 7.889 0 10.002 7.893a7.889 7.889 0 007.89 7.888 7.842 7.842 0 004.08-1.145l5.365 5.366 2.659-2.662zM3.011 7.892a4.886 4.886 0 014.881-4.881 4.887 4.887 0 014.88 4.881 4.887 4.887 0 01-4.88 4.879 4.887 4.887 0 01-4.881-4.879z"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--메인 슬라이드 배경-->
+        <div class="icon_background"></div>
+    </main>
+
+    <!--첫 번째 슬라이드-->
+    <section class="article_page">
+        <!--첫 번째 슬라이드 제목-->
+        <div class="various">
+            <div class="various_title">
+                <h2>Noun Project is building a global visual language that unites us.</h2>
+            </div>
+            <div class="various_article">
+                <!--내용1-->
+                <article class="iconathon_article">
+                    <a href="https://thenounproject.com/Iconathon1/collection/redefining-women/">
+                        <div class="iconathon_article-conationer">
+                            <div class="iconathon">
+                                <h5>Iconathon</h5>
+                                <h6>Redefining Women Collection</h6>
+                            </div>
+                            <div class="article_img">
+                                <img src="./photos/iconathon.PNG" alt="iconathon" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용2-->
+                <article class="pets_article">
+                    <a href="https://thenounproject.com/browse/campaign/pets-12/">
+                        <div class="pets_article-conationer">
+                            <div class="pets">
+                                <h5>Pets</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="https://static.production.thenounproject.com/assets/bundles/24c06c881e535fe3d6111b03035171fa.png" alt="pets" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용3-->
+                <article class="plants_article">
+                    <a href="https://thenounproject.com/search/collection/?q=plants">
+                        <div class="plants_article-conationer">
+                            <div class="plants">
+                                <h5>Plants</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="./photos/plants.PNG" alt="plants" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용4-->
+                <article class="covid-19_article">
+                    <a href="https://thenounproject.com/browse/term/photos/covid/">
+                        <div class="covid-19_article-conationer">
+                            <div class="covid-19">
+                                <h5>COVID-19</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="https://static.production.thenounproject.com/assets/bundles/e16bdf8d378b408f8c9a69ae76a1d110.png" alt="covid-19" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용5-->
+                <article class="futuristic_article">
+                    <a href="https://thenounproject.com/winnievinzence/collection/futuristic-technology/">
+                        <div class="futuristic_article-conationer">
+                            <div class="futuristic">
+                                <h5>Futuristic Technology</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="./photos/futuristic.PNG" alt="futuristic technology" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용6-->
+                <article class="cannabis_article">
+                    <a href="https://thenounproject.com/browse/campaign/cannabis-13/">
+                        <div class="cannabis_article-conationer">
+                            <div class="cannabis">
+                                <h5>Cannabis</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="https://static.production.thenounproject.com/assets/bundles/b4ee07af7b28285693e79b09a3350b6e.png" alt="cannabis" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용7-->
+                <article class="energy_article">
+                    <a href="https://thenounproject.com/search/?q=renewable+energy">
+                        <div class="energy_article-conationer">
+                            <div class="energy">
+                                <h5>Renewable Energy</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="./photos/energy.PNG" alt="renewable energy" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용8-->
+                <article class="jazz_article">
+                    <a href="https://thenounproject.com/browse/campaign/jazz-14/">
+                        <div class="jazz_article-conationer">
+                            <div class="jazz">
+                                <h5>Jazz</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="https://static.production.thenounproject.com/assets/bundles/d878a2fc02a3f956b007a0ba811ffadb.png" alt="jazz" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <!--내용9-->
+                <article class="adventure_article">
+                    <a href="https://thenounproject.com/search/?q=adventure">
+                        <div class="adventure_article-conationer">
+                            <div class="adventure">
+                                <h5>Adventure</h5>
+                            </div>
+                            <div class="article_img">
+                                <img src="./photos/adventure.PNG" alt="adventure" width="100%" height="auto">
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--두 번째 슬라이드-->
+    <section class="slide-second">
+        <div class="recent">
+            <!--두 번째 슬라이드 제목-->
+            <div class="recent_title">
+                <h2>Recent Posts</h2>
+            </div>
+            <div class="recent_article">
+                <!--내용1-->
+                <article class="idara">
+                    <div class="recent_img-container">
+                        <a href="https://blog.thenounproject.com/education-and-inspiration-with-photographer-idara-ekpoh-9899c29707b3?source=friends_link&sk=d190dd56db69a5386bb91d7ab80a88a7">
+                            <img src="https://static.production.thenounproject.com/assets/bundles/a5553fb0537126610afd63a7048e85cd.png" alt="Idara Ekpoh" width="100%" height="auto">
+                        </a>
+                    </div>
+                    <h6><a href="">Idara Ekpoh</a></h6>
+                    <div class="explantion">
+                        <a href="">Photographer Feature</a>
+                    </div>
+                </article>
+
+                <!--내용2-->
+                <article class="luis">
+                    <div class="recent_img-container"> 
+                        <a href="https://blog.thenounproject.com/creator-spotlight-luis-prado-173f7f98de17">
+                            <img src="https://static.production.thenounproject.com/assets/bundles/1dc7193b9a26529890826a8e58518f6b.png" alt="Luis Prado" width="100%" height="auto">
+                        </a>
+                    </div>
+                    <h6><a href="">Luis Prado</a></h6>
+                    <div class="explantion">
+                        <a href="">Creator Spotlight</a>
+                    </div>
+                </article>
+
+                <!--내용3-->
+                <article class="using">
+                    <div class="recent_img-container">
+                        <a href="https://blog.thenounproject.com/using-the-rule-of-thirds-in-design-82a444307746">
+                            <img src="https://static.production.thenounproject.com/assets/bundles/82f26cae46d4573148111fba17e2fd5e.png" alt="Using the Rule of Thirds in Design" width="100%" height="auto">
+                        </a>
+                    </div>
+                    <h6><a href="">Using the Rule of Thirds in Design</a></h6>
+                    <div class="explantion">
+                        <a href="">Tutorial</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--세 번째 슬라이드-->
+    <section class="slide-add">
+        <div class="other_info">
+            <!--내용1-->
+            <article class="license_article">
+                <a href="https://thenounproject.com/pricing/">
+                    <div class="license">
+                        <svg viewbox="0 0 24 24">
+                            <path d="M2 12C2 6.48 6.48 2 12 2s10 4.48 10 10-4.48 10-10 10S2 17.52 2 12zm7.828 1.604c.279 0 .495.232.551.505.056.27.164.498.326.683.255.29.57.475.948.555v-2.76a1.107 1.107 0 00-.172-.052 1.356 1.356 0 00-.222-.066c-.303-.088-.603-.19-.899-.304a3.229 3.229 0 01-.8-.475 2.3 2.3 0 01-.554-.74c-.14-.299-.209-.668-.209-1.108 0-.45.078-.845.234-1.189.164-.343.377-.629.64-.858.263-.237.566-.418.911-.54a3.72 3.72 0 011.071-.239V6h.726v1.016c.37.045.715.133 1.035.265.328.123.615.299.861.528.246.22.448.497.604.831.093.2.162.421.209.665.053.281-.18.523-.466.523h-.732c-.272 0-.482-.222-.569-.48a1.354 1.354 0 00-.227-.417c-.197-.247-.435-.37-.715-.37v2.337l.296.079c.107.026.217.057.332.092.608.176 1.075.396 1.404.66.328.256.57.524.726.806.156.281.246.563.27.845.034.281.05.532.05.752 0 .194-.045.44-.135.74-.09.29-.255.576-.493.857-.23.282-.541.533-.935.753-.394.22-.899.352-1.515.396V18h-.726v-1.122c-.92-.07-1.637-.374-2.154-.911-.424-.44-.702-1.049-.833-1.826-.05-.288.183-.537.475-.537h.687zm2.551-.792v2.535c.148-.018.3-.053.456-.106.164-.062.308-.145.43-.25a1.27 1.27 0 00.32-.384 1.19 1.19 0 00.124-.554c0-.343-.103-.599-.308-.766-.197-.176-.537-.334-1.022-.475zm-.726-2.1v-2.15c-.14 0-.275.021-.406.065a1 1 0 00-.357.211.965.965 0 00-.259.344c-.057.132-.086.29-.086.475 0 .29.086.515.259.673.172.158.455.286.85.383z"></path>
+                        </svg>
+                    </div>
+                    <p class="title">Pricing & Licenses</p>
+                    <p class="info">All images available as free downloads. Purchase a royalty-free license to support artists and get more options.</p>
+                    <div class="learn_more"><p>Learn More</p></div>
+                </a>
+            </article>
+
+            <!--내용2-->
+            <article class="apps_article"> 
+                <a href="https://thenounproject.com/apps/">
+                    <div class="apps">
+                        <svg viewbox="0 0 24 24">
+                            <path d="M2.5 16a.5.5 0 01-.5-.5v-11a.5.5 0 01.5-.5h19a.5.5 0 01.5.5v11a.5.5 0 01-.5.5h-19zm2-2.5h15v-7h-15v7zM15.734 19.318a.5.5 0 01-.466.682H8.732a.5.5 0 01-.466-.682l.585-1.5a.5.5 0 01.466-.318h5.366a.5.5 0 01.466.318l.585 1.5z"></path>
+                        </svg> 
+                    </div>
+                    <p class="title">Apps & Plugins</p>
+                    <p class="info">Drag and drop icons into the software you use. Access vector, png, & pdf from Mac, PowerPoint, Adobe, Google, more.</p>
+                    <div class="site_icons">
+                        <svg viewbox="0 0 35 40" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M33.4867 31.1723C32.8817 32.5698 32.1657 33.8562 31.3361 35.0388C30.2053 36.6511 29.2794 37.7672 28.5658 38.3869C27.4597 39.4041 26.2745 39.9251 25.0054 39.9547C24.0943 39.9547 22.9956 39.6955 21.7166 39.1696C20.4335 38.6461 19.2542 38.3869 18.176 38.3869C17.0452 38.3869 15.8324 38.6461 14.5351 39.1696C13.2359 39.6955 12.1893 39.9696 11.3891 39.9967C10.1721 40.0486 8.959 39.5128 7.74818 38.3869C6.97536 37.7128 6.00872 36.5573 4.85073 34.9203C3.6083 33.1722 2.58685 31.1451 1.78663 28.8341C0.929617 26.3379 0.5 23.9207 0.5 21.5805C0.5 18.8998 1.07924 16.5878 2.23945 14.6503C3.15128 13.0941 4.36433 11.8665 5.88255 10.9653C7.40078 10.064 9.04122 9.6048 10.8078 9.57542C11.7745 9.57542 13.0421 9.87442 14.6174 10.4621C16.1882 11.0517 17.1968 11.3507 17.639 11.3507C17.9696 11.3507 19.0901 11.0011 20.9895 10.304C22.7857 9.65764 24.3018 9.38999 25.5437 9.49542C28.909 9.76702 31.4373 11.0936 33.1188 13.4837C30.109 15.3073 28.6201 17.8616 28.6498 21.1383C28.6769 23.6905 29.6028 25.8144 31.4225 27.5008C32.2472 28.2835 33.1681 28.8884 34.1928 29.318C33.9706 29.9625 33.736 30.5797 33.4867 31.1723ZM25.7679 0.800223C25.7679 2.80068 25.0371 4.6685 23.5804 6.39734C21.8224 8.45258 19.696 9.6402 17.3902 9.4528C17.3608 9.21281 17.3438 8.96022 17.3438 8.6948C17.3438 6.77436 18.1798 4.71912 19.6644 3.03867C20.4056 2.18784 21.3483 1.48037 22.4915 0.916022C23.6322 0.360088 24.7112 0.0526404 25.726 0C25.7556 0.267424 25.7679 0.534873 25.7679 0.800198V0.800223Z"></path>
+                        </svg>
+                        <img class="adobe" src="data:image/png;base64,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" alt="adobe">
+                        <img class="office" src="data:image/png;base64,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" alt="office">
+                        <img class="google" src="data:image/png;base64,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" alt="google">
+                    </div>
+                </a>
+            </article>
+
+            <!--내용3-->
+            <article class="api_article">
+                <a href="https://thenounproject.com/developers/">
+                    <div class="api">
+                        <svg viewbox="0 0 24 24">
+                            <path d="M11.666 15.527l1.96-1.553a.5.5 0 00.08-.702l-.31-.392a.5.5 0 00-.702-.082l-1.96 1.553-1.241-1.568 1.96-1.552a.5.5 0 00.08-.703l-.31-.392a.5.5 0 00-.702-.081l-1.96 1.552-1.232-1.555-1.539 1.22c-1.598 1.277-1.998 3.554-1.09 5.309l-2.654 2.101a.5.5 0 00-.081.703l.62.784a.5.5 0 00.703.081l2.653-2.102c1.504 1.273 3.83 1.443 5.428.165l1.539-1.219-1.242-1.567zM16.82 13.99l1.77-1.4c1.599-1.278 2.048-3.492 1.14-5.247l2.353-1.996a.5.5 0 00.068-.691l-.63-.797a.5.5 0 00-.703-.082l-2.404 1.904c-1.504-1.272-3.829-1.442-5.428-.165l-1.768 1.402c5.162 6.503.367.46 5.602 7.071z"></path>
+                        </svg>
+                    </div>
+                    <p class="title">API</p>
+                    <p class="info">Access the entire icon collection via our REST API. Reliably supports growth stage to enterprise clients.</p>
+                    <div class="learn_more"><p>Learn More</p></div>
+                </a>
+            </article>
+        </div>
+    </section>
+    
+    <!--푸터-->
+    <footer>
+        <!--기타 정보-->
+        <section class="slide-etc">
+            <div class="footer-wrapper">
+                <div class="footer_info">
+                    <div class="about">
+                        <a class="footer_logo" href="/">
+                            <svg class="footer_main_logo">
+                                <path d="M221.01 5.629v15.326c0 .776-.061 1.376-.237 1.976-.181.537-.42 1.018-.838 1.375-.357.357-.9.657-1.557.838-.657.181-1.495.238-2.514.238-.48 0-.9-.062-1.257-.119v-3.295c.181.063.481.063.838.063.42 0 .776-.063 1.076-.238.3-.176.481-.538.481-1.076V5.629h4.009zm25.444-.3c.838 0 1.676.119 2.514.357.775.238 1.494.6 2.156 1.019a5.464 5.464 0 011.557 1.738c.42.719.6 1.494.657 2.456h-3.77c-.3-1.794-1.257-2.632-2.995-2.632-.657 0-1.195.119-1.614.419-.419.3-.776.657-1.076 1.138-.3.48-.481.957-.6 1.557a8.03 8.03 0 00-.181 1.675c0 .538.062 1.076.181 1.614s.3 1.02.538 1.495c.238.419.6.776 1.019 1.076.419.3.957.419 1.557.419.957 0 1.676-.238 2.214-.776s.838-1.257.957-2.157h3.89c-.239 1.914-1.02 3.414-2.277 4.428-1.257 1.013-2.813 1.557-4.79 1.557-1.075 0-2.094-.181-2.994-.538a6.89 6.89 0 01-2.333-1.557c-.657-.657-1.138-1.438-1.495-2.333-.357-.9-.538-1.914-.538-2.995 0-1.138.181-2.157.481-3.17a8.55 8.55 0 011.438-2.514c.657-.72 1.438-1.257 2.333-1.676.9-.42 1.976-.6 3.17-.6zm-109.128.3v8.26c0 1.195.181 2.095.538 2.695.357.6 1.02.9 2.033.9 1.076 0 1.914-.3 2.395-.957.48-.657.719-1.738.719-3.233V5.63h4.008v14.607h-3.827v-2.033h-.062c-.538.838-1.195 1.438-1.976 1.857-.838.357-1.614.538-2.514.538-1.076 0-1.976-.12-2.633-.42-.719-.3-1.257-.656-1.614-1.194-.419-.538-.656-1.138-.838-1.914-.18-.719-.237-1.557-.237-2.457V5.63h4.008zm93.202-.42c1.257 0 2.333.239 3.233.72a7.117 7.117 0 012.276 1.914c.6.838 1.018 1.738 1.318 2.751.238 1.02.357 2.095.3 3.233H227.12c0 1.381.357 2.338.957 2.876.6.6 1.495.9 2.576.9.838 0 1.495-.181 2.095-.6.6-.419.957-.838 1.076-1.319h3.532c-.537 1.738-1.437 2.995-2.575 3.77-1.195.777-2.576 1.139-4.252 1.139-1.138 0-2.214-.181-3.114-.538-.9-.357-1.738-.9-2.333-1.557-.657-.657-1.138-1.495-1.494-2.457-.357-.957-.538-1.976-.538-3.114a8.67 8.67 0 01.538-3.052c.356-.957.837-1.738 1.556-2.451.657-.657 1.438-1.257 2.333-1.614.9-.42 1.914-.6 3.052-.6zm-22.924 0c1.138 0 2.214.182 3.114.539.956.357 1.737.9 2.394 1.557a6.911 6.911 0 011.557 2.457c.357.956.538 2.032.538 3.17 0 1.195-.18 2.214-.538 3.17-.357.958-.838 1.739-1.557 2.396a6.695 6.695 0 01-2.394 1.557c-.957.357-1.976.538-3.114.538s-2.214-.181-3.114-.538c-.9-.357-1.738-.9-2.395-1.557a7.233 7.233 0 01-1.557-2.395c-.357-.957-.538-1.976-.538-3.17 0-1.196.181-2.215.538-3.171.357-.957.838-1.738 1.557-2.457a6.695 6.695 0 012.395-1.557c.9-.357 1.976-.538 3.114-.538zm-83.747 0c1.138 0 2.214.182 3.114.539.957.357 1.738.9 2.395 1.557a6.911 6.911 0 011.557 2.457c.357.956.538 2.032.538 3.17 0 1.195-.181 2.214-.538 3.17-.357.958-.838 1.739-1.557 2.396a6.695 6.695 0 01-2.395 1.557c-.957.357-1.976.538-3.114.538s-2.214-.181-3.114-.538c-.9-.357-1.738-.9-2.394-1.557a7.233 7.233 0 01-1.557-2.395c-.357-.957-.538-1.976-.538-3.17 0-1.196.18-2.215.538-3.171.357-.957.838-1.738 1.557-2.457a6.695 6.695 0 012.394-1.557c.9-.357 1.976-.538 3.114-.538zm136.904-4.008v4.37h2.932v2.753h-2.932v7.241c0 .657.119 1.138.357 1.376.237.238.656.357 1.375.357h.657c.181 0 .42-.062.6-.062v3.113a6.404 6.404 0 01-1.138.12h-1.194c-.6 0-1.195-.063-1.795-.12-.538-.062-1.02-.237-1.495-.48a2.79 2.79 0 01-1.02-1.02c-.237-.48-.356-1.018-.356-1.794V8.267h-2.457V5.572h2.457v-4.37h4.009zM44.3.001l3.708 3.714-6.46 6.403 6.46 6.41-3.709 3.708-6.465-6.466-6.528 6.466-3.646-3.709 6.46-6.409-6.46-6.403L31.307.001l6.528 6.466L44.3 0zM1.802 4.355C4.985-.237 11.288-1.38 15.88 1.803c4.592 3.182 5.735 9.485 2.552 14.078-3.182 4.592-9.485 5.735-14.078 2.552C-.237 15.251-1.38 8.948 1.803 4.355zM76.747.001v20.235H56.512V0h20.235zm122.477 5.152c.238 0 .538.062.9.119v3.833c-.18-.062-.419-.062-.656-.12-.238 0-.538-.061-.776-.061-.72 0-1.376.119-1.857.357-.538.237-.9.6-1.257 1.018-.3.42-.538.9-.657 1.495a8.901 8.901 0 00-.181 1.857v6.585h-4.009V5.629h3.766v2.695h.062c.181-.481.419-.9.776-1.257.3-.357.719-.72 1.076-1.02.419-.3.838-.48 1.319-.656.48-.181.957-.238 1.494-.238zM101.29 0l8.441 13.531h.057V.002h4.133v20.177h-4.433l-8.38-13.47h-.061v13.527h-4.128V0h4.371zm56.57 5.204c1.077 0 1.977.119 2.633.419.657.3 1.257.719 1.614 1.194.42.538.657 1.138.838 1.914.181.72.238 1.557.238 2.457v8.98h-4.009v-8.194c0-1.194-.18-2.094-.537-2.694-.357-.6-1.02-.9-2.033-.9-1.076 0-1.914.3-2.395.956-.481.657-.719 1.738-.719 3.233v7.66h-4.009V5.63h3.828v2.033h.062c.538-.838 1.195-1.438 1.976-1.857.838-.357 1.614-.6 2.514-.6zM182.043 0c1.257 0 2.332.181 3.232.538.9.357 1.614.838 2.157 1.438a5.57 5.57 0 011.195 2.095c.238.776.357 1.557.357 2.395 0 .838-.119 1.614-.357 2.395a5.64 5.64 0 01-1.195 2.094c-.538.6-1.257 1.076-2.157 1.438-.9.362-1.975.538-3.232.538h-4.671v7.242h-4.428V0h9.099zm-58.247 8.204c-.719 0-1.257.119-1.676.419-.48.3-.838.6-1.076 1.075-.3.42-.48.957-.6 1.495a8.178 8.178 0 00-.18 1.738c.005.6.061 1.138.18 1.738.12.538.3 1.076.6 1.495.3.419.657.776 1.076 1.076.481.238 1.02.419 1.676.419.657 0 1.257-.12 1.738-.42.481-.237.838-.6 1.076-1.075.3-.419.481-.957.6-1.495a8.177 8.177 0 00.181-1.738c0-.6-.062-1.138-.181-1.738-.119-.538-.3-1.076-.6-1.495a4.618 4.618 0 00-1.076-1.075c-.481-.3-1.019-.42-1.738-.42zm83.747 0c-.657 0-1.257.119-1.676.419-.481.3-.838.6-1.076 1.075-.3.42-.481.957-.6 1.495a8.177 8.177 0 00-.181 1.738c.005.6.062 1.138.181 1.738.119.538.3 1.076.6 1.495.3.419.657.776 1.076 1.076.48.238 1.019.419 1.676.419s1.257-.12 1.738-.42c.48-.237.838-.6 1.075-1.075.3-.419.482-.957.6-1.495a8.177 8.177 0 00.182-1.738c0-.6-.063-1.138-.182-1.738-.118-.538-.3-1.076-.6-1.495a4.618 4.618 0 00-1.075-1.075c-.481-.3-1.02-.42-1.738-.42zm22.872.062c-.657 0-1.195.119-1.614.3-.419.238-.776.48-1.019.776-.238.3-.419.656-.538 1.019-.119.356-.18.656-.18.956h6.522c-.181-.956-.481-1.737-.957-2.275-.481-.538-1.195-.776-2.214-.776zm-49.567-4.733h-3.47v6.047h3.47v-.057c.538 0 1.019-.062 1.495-.12.48-.061.9-.237 1.257-.418.356-.238.656-.538.838-.9.237-.42.3-.9.3-1.557 0-.657-.12-1.138-.3-1.557-.238-.42-.482-.72-.838-.9-.357-.238-.776-.357-1.257-.42a11.296 11.296 0 00-1.495-.118zM221.01.064v3.294h-4.009V.063h4.009z"></path>
+                            </svg>
+                        </a>
+                        <div class="sns">
+                            <a href="">
+                                <svg class="twitter">
+                                    <path d="M21.999 6.275a8.703 8.703 0 01-2.356.597c.846-.469 1.497-1.212 1.804-2.095a8.632 8.632 0 01-2.606.918C18.093 4.96 17.027 4.5 15.847 4.5c-2.266 0-4.104 1.694-4.104 3.786 0 .297.038.586.106.863-3.41-.158-6.433-1.665-8.456-3.955a3.543 3.543 0 00-.556 1.903c0 1.314.725 2.474 1.826 3.152a4.357 4.357 0 01-1.86-.475v.048c0 1.835 1.414 3.365 3.291 3.713a4.472 4.472 0 01-1.852.066c.521 1.504 2.037 2.6 3.833 2.63-1.404 1.015-3.174 1.62-5.096 1.62A9.01 9.01 0 012 17.799 12.324 12.324 0 008.29 19.5c7.548 0 11.675-5.77 11.675-10.774 0-.163-.004-.327-.012-.49A8.062 8.062 0 0022 6.277l-.001-.001z"></path>
+                                </svg>
+                            </a>
+                            <a href="">
+                                <svg class="facebook">
+                                    <path d="M16.5 2.013h-2.804S9.313 1.534 9.313 6.3v1.974H7.529L7.5 12.022h1.812V22h4.155v-9.978h2.402l.583-3.75h-2.985V6.749S13.211 5.46 14.69 5.46h1.78l.028-3.448.002.001z"></path>
+                                </svg>
+                            </a>
+                            <a href="">
+                                <svg class="instagram">
+                                    <path d="M11.996 4.621c2.404 0 2.686.011 3.636.054.879.04 1.354.186 1.672.31.421.165.721.358 1.035.672.315.314.511.614.672 1.036.121.318.271.793.31 1.671.043.95.054 1.232.054 3.636s-.01 2.686-.054 3.636c-.039.878-.185 1.353-.31 1.671a2.792 2.792 0 01-.672 1.036 2.75 2.75 0 01-1.035.671c-.318.122-.793.272-1.672.311-.95.043-1.232.054-3.636.054-2.403 0-2.685-.011-3.635-.054-.879-.04-1.354-.186-1.672-.31a2.793 2.793 0 01-1.035-.672 2.749 2.749 0 01-.672-1.036c-.121-.318-.271-.793-.31-1.671-.043-.95-.054-1.232-.054-3.636s.01-2.686.053-3.636c.04-.878.186-1.353.311-1.671.164-.422.357-.722.672-1.036.314-.314.614-.51 1.035-.671.318-.122.793-.272 1.672-.311.95-.046 1.232-.054 3.635-.054zm0-1.621c-2.442 0-2.75.01-3.71.054-.957.042-1.611.196-2.182.417a4.385 4.385 0 00-1.593 1.04c-.5.5-.807 1.003-1.04 1.593-.221.571-.375 1.225-.417 2.185C3.01 9.246 3 9.554 3 11.996c0 2.443.01 2.75.054 3.711.042.957.196 1.61.417 2.186.229.593.54 1.093 1.04 1.593s1.003.807 1.593 1.039c.571.221 1.225.375 2.185.418.961.043 1.265.053 3.711.053 2.446 0 2.75-.01 3.71-.053.958-.043 1.611-.197 2.186-.418a4.385 4.385 0 001.593-1.04c.5-.5.807-1.003 1.04-1.592.221-.572.375-1.225.417-2.186.043-.96.054-1.264.054-3.71 0-2.447-.01-2.75-.054-3.711-.042-.957-.196-1.611-.417-2.186a4.386 4.386 0 00-1.04-1.593c-.5-.5-1.003-.807-1.593-1.04-.571-.22-1.225-.374-2.185-.417-.965-.04-1.272-.05-3.715-.05zm0 4.375a4.622 4.622 0 000 9.243 4.625 4.625 0 004.622-4.622 4.624 4.624 0 00-4.622-4.621zm0 7.621a3 3 0 110-5.999 3 3 0 010 6zm5.883-7.803a1.079 1.079 0 11-2.158 0 1.079 1.079 0 012.158 0z"></path>
+                                </svg>
+                            </a>
+                            <a href="">
+                                <svg class="dribbble">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"></path>
+                                </svg>
+                            </a>
+                            <a href="">
+                                <svg class="behance">
+                                    <path d="M10.113 11.492c1.08-.522 1.687-1.372 1.687-2.589 0-2.311-1.599-3.153-3.962-3.153H2v12.484h6.012c2.24 0 4.38-1.079 4.38-3.598 0-1.545-.765-2.709-2.279-3.144zM4.494 7.843h2.79c.971 0 1.875.244 1.875 1.426 0 1.042-.712 1.475-1.668 1.475H4.494v-2.9zm3.152 8.374H4.494v-3.406h3.205c1.165 0 1.885.505 1.885 1.773 0 1.287-.859 1.633-1.937 1.633zm9.98-7.21c-2.728 0-4.614 2.05-4.614 4.743 0 2.78 1.781 4.727 4.613 4.727 2.034 0 3.615-1.113 4.31-3.233h-2.172c-.156.556-1.059 1.373-2.052 1.373-1.37 0-2.136-1-2.205-2.564h6.48c.173-2.762-1.304-5.047-4.36-5.047v.001zm-2.12 3.431c.034-.694.486-1.57 2.05-1.57 1.197 0 1.737.321 1.964 1.57h-4.014zm4.794-5.85h-4.97v1.669h4.97V6.589z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="subscribe-wrapper">
+                        <div class="enter_email">
+                            <p>Subscribe to Noun Gazette</p>
+                            <form action="/email/">
+                                <div class="email">
+                                    <input type="email" placeholder="Enter your email">
+                                </div>
+                                <button>Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="sub_menu">
+                        <div class="footer_menu">
+                            <a href="">About Us</a>
+                            <a href="">Contact Us</a>
+                            <a href="">Customer Support</a>
+                            <a href="">Jobs</a>
+                            <a href="">Legal</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--저작권 정보-->
+        <section class="copyright">
+            <div>© Noun Project Inc.</div>
+        </section>
+    </footer>
+</body>
+
+</html>

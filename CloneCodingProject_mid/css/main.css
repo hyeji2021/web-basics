@@ -1,0 +1,212 @@
+body {
+    font-family: "Helvetica Neue LT W05_55 Regular", Helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 2rem 1.25rem;
+    background-color: rgb(22, 22, 29);
+}
+
+svg {
+    overflow: hidden;
+}
+
+.header-wrapper {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 82.375rem;
+}
+
+.header-bar {
+    margin-bottom: 1.625rem;
+    height: 24px;
+}
+
+.main_menu {
+    display: flex;
+    align-items: center;
+}
+
+.shown_menu a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: rgb(241, 243, 242);
+    font-size: 0.875rem;
+}
+
+.shown_menu, .ellipsis{
+    float: left;
+}
+
+.ellipsis {
+    cursor: pointer;
+    width: 1.1rem;
+    fill: rgb(255, 255, 255);
+}
+
+.account {
+    float: right;
+}
+
+.account .login {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 0.875rem;
+}
+
+.account button {
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-left: 1rem;
+    width: 3.625rem;
+    border: 0px;
+    border-radius: 3px;
+    line-height: 0.75rem;
+}
+
+.join a {
+    text-decoration: none;
+    color: rgb(17, 17, 21);
+    font-size: 0.75rem;
+    line-height: 0.75rem;
+}
+
+.home {
+    fill: rgb(255, 255, 255);
+}
+
+main {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 6.125rem;
+    max-width: 100%;
+    background-color: rgb(22, 22, 29);
+}
+
+.main_title {
+    text-align: center;
+    color: rgb(241, 243, 242);
+    font-size: 2.75rem;
+    line-height: 125%;
+    letter-spacing: -0.085rem;
+}
+
+.main_title h1 {
+    padding-bottom: 1.75rem;
+}
+
+.search-wrapper {
+    position: relative;
+    padding-bottom: 3.5rem;
+    margin: 0px auto;
+    width: 100%;
+    height: 4.235rem;
+    max-width: 54.5rem;
+}
+
+.search_nav {
+    display: block;
+    position: absolute;
+    width: 8.125rem;
+    top: 0.1875rem;
+    bottom: 0.1875rem;
+}
+
+.search_nav button {
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 3.875rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0px;
+    border-width: 0px 1px 0px 0px;
+    border-right-color: rgb(221, 221, 221);
+}
+
+.search_nav svg {
+    margin-right: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    fill: rgb(109, 109, 109);
+}
+
+.icons {
+    margin-right: 0.5rem;
+    font-size: 1rem;
+    color: rgb(109, 109, 109);
+}
+
+.arrow_down_btn {
+    margin-top: 0.25rem;
+    width: 10px;
+    height: 10px;
+    fill: rgb(109, 109, 109);
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+}
+
+.search_box {
+    margin: 0px auto;
+    height: auto;
+    border: 3px solid rgb(241, 243, 242);
+}
+
+.search {
+    align-items: center;
+}
+
+::placeholder {
+    font-size: 1rem;
+}
+
+.search input {
+    display: inline-block;
+    box-sizing: border-box;
+    appearance: none;
+    padding: 0.875rem 2.5rem 0.875rem 9rem;
+    height: 3.9rem;
+    width: 100%;
+    border: rgb(255, 255, 255);
+    border-radius: 0px;
+}
+
+.search button {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    height: 3.875rem;
+    min-width: 3.875rem;
+    border: 0px rgb(0, 0, 0);
+    border-radius: 0px;
+    background-color: rgb(0, 0, 0);
+    top: 0.1875rem;
+    right: 0.1875rem;
+}
+
+.search svg {
+    width: 20px;
+    height: 20px;
+    fill: rgb(241, 243, 242);
+}
+
+.icon_background {
+    height: 229px;
+    background-image: url("https://static.production.thenounproject.com/assets/bundles/fa557e60430f9c7897897110c1a8dcff.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.slide-first {
+    display: table;
+}
+
+.various_article {
+    display: table-cell;
+    padding: 6.125rem 1.25rem;
+    margin: 0px auto;
+    background-color: rgb(241, 243, 242);
+}
+
